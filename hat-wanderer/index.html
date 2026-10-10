@@ -1,0 +1,47 @@
+﻿<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hat Wanderer - Hakob Hakobyan</title>
+<meta name="description" content="Hat Wanderer: a calm one-finger isometric puzzle game. Turn hex islands, rings and a tiny planet, steer lasers, and fold space between 2D and 3D.">
+<style>
+:root{--paper:#F2EEE3;--ink:#17150F;--muted:#6B6558;--trace:#2342D6}
+@media (prefers-color-scheme:dark){:root{--paper:#121316;--ink:#ECE7DA;--muted:#8D8778}}
+*{box-sizing:border-box}body{margin:0;padding:48px 16px;background:var(--paper);color:var(--ink);font:16px/1.6 ui-serif,Georgia,serif;display:flex;justify-content:center}
+main{max-width:40rem;width:100%}h1{font:700 2rem/1.1 ui-sans-serif,system-ui,sans-serif;letter-spacing:-.02em;margin:0 0 .25rem}
+h2{font:700 1.15rem/1.2 ui-sans-serif,system-ui,sans-serif;margin:2rem 0 .5rem}
+p.sub{color:var(--muted);margin:0 0 1.5rem}a{color:var(--trace)}ul{padding-left:1.1rem}li{margin:.35rem 0}
+.hero{display:flex;gap:16px;align-items:center;margin-bottom:1rem}.hero img{width:96px;height:96px;border-radius:22px}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:1rem 0}
+.shots img{width:100%;border-radius:12px;border:1px solid var(--muted)}
+footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--muted);color:var(--muted);font-size:.85rem}
+</style></head><body><main>
+<div class="hero"><img src="icon.png" alt="Hat Wanderer icon"><div>
+<h1>Hat Wanderer</h1><p class="sub" style="margin:0">A calm one-finger isometric puzzle game. Prototype in development.</p></div></div>
+
+<p>You wake on a cloud with a bare head and no name. Every hat you find is a memory, and a power. Turn islands and
+rings like the layers of a puzzle cube, steer lasers with mirrors and prisms, flatten the world into 2D to cross
+impossible gaps, and spin a tiny planet under your feet.</p>
+
+<div class="shots">
+<img src="drift.png" alt="The Drift overworld"><img src="hexa4.png" alt="Hex islands"><img src="prism2.png" alt="Prism Observatory">
+<img src="gallery4.png" alt="Folded Gallery"><img src="rings2.png" alt="Ring Gardens"><img src="planet3.png" alt="Little Planet">
+</div>
+
+<h2>Features</h2>
+<ul>
+<li>22 hand-built puzzles across 5 worlds, each proven solvable by an automated solver</li>
+<li>7 collectable hats with abilities: pass crystals, hop gaps, smash boulders, split beams, climb ledges, walk on water</li>
+<li>One-finger controls: tap to walk, drag to turn, hold the wanderer for a hat wheel</li>
+<li>Rotating hex islands, concentric rings and a spherical world; lasers, mirrors and prisms; Fez-style 2D/3D perspective shifts</li>
+<li>Soft atmosphere with procedural music and sound</li>
+</ul>
+
+<h2>Built with</h2>
+<p>Unity 6 (C#), 3D assets and animation generated with Blender scripting, custom BFS solver for level validation and hints. Android build available.</p>
+
+<h2>Links</h2>
+<ul>
+<li><a href="https://github.com/hakob17/hat-wanderer">Source code on GitHub</a></li>
+<li><a href="https://github.com/hakob17/hat-wanderer/blob/main/docs/DESIGN.md">Design document</a></li>
+<li><a href="https://github.com/hakob17/hat-wanderer/blob/main/docs/PUBLISHING.md">Publisher kit</a></li>
+</ul>
+<footer><a href="../">Hakob Hakobyan</a> &middot; <a href="https://github.com/hakob17">github.com/hakob17</a></footer>
+</main></body></html>
